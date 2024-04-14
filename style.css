@@ -3,8 +3,8 @@ html { box-sizing: border-box; }
 
 
 body {
-	margin: 0;
-    padding: 0;
+	margin: 60px 20px;
+    padding-left: 0;
 	font-family: 'Montserrat';
     font-weight: 300;
 	font-size: 16px;
@@ -90,8 +90,6 @@ h2 {
 	box-shadow: 0 4px 6px #407BFF1F;
     margin: 15px;
 
-    height: 80px;
-    width: 460px;
 
     display: flex;
     align-items: center;
@@ -102,4 +100,8 @@ h2 {
     width: 45px;
     margin: 20px;
     margin-right: 25px;
+}
+
+.text {
+    margin-right: 20px;
 }
