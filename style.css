@@ -200,10 +200,70 @@ h2 {
 }
 
 
-@media (min-width: 860px) {
+@media (min-width: 1100px) {
+
+    body {
+        max-width: 1040px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sluzby {
+        margin: 0;
+    }
+
+    h2 {
+        margin: 0;
+        margin-bottom: 17px;
+    }
+
+
+    .cast1 {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        margin-bottom: 80px;
+
+    }
 
 
 
+
+
+
+
+    cast2 {
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 60px;
+        margin: 0;
+        margin-bottom: 80px;
+
+    }
+
+    .sluzby_cestovky {
+        width: 430px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .kontejner {
+        width: 550px;
+        margin: 0;
+        gap: 20px;
+
+    }
+
+    .kontejner_ikona {
+        width: 170px;
+    }
+
+
+    .cast3 {
+        
+    }
 
 
 
